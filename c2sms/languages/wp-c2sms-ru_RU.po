@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-c2cmc\n"
+"POT-Creation-Date: 2016-12-05 17:32+0300\n"
+"PO-Revision-Date: 2016-12-05 17:37+0300\n"
+"Last-Translator: Michael Baranov <bami@nm.ru>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: includes/templates\n"
+"X-Poedit-SearchPath-3: includes/classes\n"
+"X-Poedit-SearchPath-4: includes/templates/outbox\n"
+"X-Poedit-SearchPath-5: includes/templates/send\n"
+"X-Poedit-SearchPath-6: includes/templates/settings\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+
+#: export.php:5
+msgid "Access denied!"
+msgstr "Доступ запрещен!"
+
+#: export.php:49
+msgid "Please select the desired items."
+msgstr "Выбирите нужные элементы."
+
+#: includes/ajax/wp-c2sms-contact.php:7
+msgid "Please complete all fields"
+msgstr "Заполните все поля"
+
+#: includes/ajax/wp-c2sms-contact.php:12
+msgid "Please enter a valid mobile number"
+msgstr "Введите правильный  номер мобильного."
+
+#: includes/ajax/wp-c2sms-contact.php:32
+msgid "Sending result: "
+msgstr "Результат отправки СМС:"
+
+#: includes/functions.php:7
+msgid "Enter your phone for sending Contacts by SMS"
+msgstr "Введите ваш телефон для получения контактов по СМС"
+
+#: includes/service.php:42 includes/service.php:52 includes/service.php:64
+#: includes/service.php:77 includes/service.php:86 includes/service.php:99
+#: includes/service.php:109 includes/service.php:118 includes/service.php:127
+#: includes/service.php:137 includes/service.php:146 includes/service.php:155
+#: includes/service.php:165
+msgid "Error:SMS API Server not defined"
+msgstr "Ошибка:Сервер СМС API не задан"
+
+#: includes/service.php:44 includes/service.php:54 includes/service.php:66
+#: includes/service.php:79 includes/service.php:88 includes/service.php:101
+#: includes/service.php:111 includes/service.php:120 includes/service.php:129
+#: includes/service.php:139 includes/service.php:148 includes/service.php:157
+#: includes/service.php:167
+msgid "Error:SMS API key not defined"
+msgstr "Ошибка: Ключ СМС API не определен"
+
+#: includes/templates/ip/add.php:2
+msgid "Add IP to blacklist"
+msgstr "Добавить IP в черный список"
+
+#: includes/templates/ip/add.php:7
+msgid "Client IP"
+msgstr "IP адрес клиента"
+
+#: includes/templates/ip/add.php:18 includes/templates/phone/add.php:18
+msgid "Add to blacklist"
+msgstr "Добавить телефон в черный список"
+
+#: includes/templates/ip/ip.php:2 wp-c2sms.php:213
+msgid "IP Blacklist"
+msgstr "Черный список IP"
+
+#: includes/templates/ip/ip.php:4 includes/templates/phone/phone.php:4
+msgid "Add"
+msgstr "Добавить"
+
+#: includes/templates/outbox/export.php:2
+#: includes/templates/outbox/export.php:25
+#: includes/templates/outbox/outbox.php:4
+msgid "Export"
+msgstr "Экспорт"
+
+#: includes/templates/outbox/export.php:7
+msgid "Export To"
+msgstr "Экспорт в"
+
+#: includes/templates/outbox/export.php:12
+msgid "Please select."
+msgstr "Пожалуйста выберите"
+
+#: includes/templates/outbox/export.php:18
+msgid "Select the output file type."
+msgstr "Задайте тип выходного файла"
+
+#: includes/templates/outbox/export.php:24
+msgid "Back"
+msgstr "Назад"
+
+#: includes/templates/outbox/outbox.php:2
+msgid "Outbox SMS"
+msgstr "Исходящие СМС"
+
+#: includes/templates/phone/add.php:2
+msgid "Add Phone to blacklist"
+msgstr "Добавить телефон в черный список"
+
+#: includes/templates/phone/add.php:7
+msgid "Phone"
+msgstr "Телефон"
+
+#: includes/templates/phone/phone.php:2
+msgid "Phone blacklist"
+msgstr "Черный список телефонов"
+
+#: includes/templates/send/send-sms.php:36
+#: includes/templates/send/send-sms.php:60
+msgid "Send SMS"
+msgstr "Отправить СМС"
+
+#: includes/templates/send/send-sms.php:40
+msgid "Send to"
+msgstr "Номер мобильного"
+
+#: includes/templates/send/send-sms.php:44
+#, php-format
+msgid "For example: <code>%s</code>"
+msgstr "Например,  <code>%s</code>"
+
+#: includes/templates/send/send-sms.php:50 wp-c2sms.php:179
+msgid "SMS"
+msgstr "СМС"
+
+#: includes/templates/send/send-sms.php:53
+#: includes/templates/settings/setting.php:53
+msgid "The remaining words"
+msgstr "Осталось символов"
+
+#: includes/templates/settings/setting.php:33
+msgid "SMS API Service"
+msgstr "Адрес сервиса отправки СМС"
+
+#: includes/templates/settings/setting.php:36
+msgid "Enter SMS API server address."
+msgstr "Введите адрес сервиса отправки СМС"
+
+#: includes/templates/settings/setting.php:41
+msgid "Key for SMS API"
+msgstr "Ключ для СМС API"
+
+#: includes/templates/settings/setting.php:44
+msgid "Enter KEY for SMS API."
+msgstr "Введите ключ для СМС API"
+
+#: includes/templates/settings/setting.php:49
+msgid "Contacts text"
+msgstr "Текст контактов сайта"
+
+#: includes/templates/settings/setting.php:52
+msgid "Enter Contact Info."
+msgstr "Введите текст контактов для отправки по СМС"
+
+#: includes/templates/settings/setting.php:59
+msgid "Phone protection interval"
+msgstr "Интервал между отсылками"
+
+#: includes/templates/settings/setting.php:62
+msgid "Interval for send SMS to same Phone"
+msgstr "Интервал между отсылками на тот же номер  (минут)"
+
+#: includes/templates/settings/setting.php:67
+msgid "IP protection interval"
+msgstr "Интервал между отсылками IP"
+
+#: includes/templates/settings/setting.php:70
+msgid "Interval for send SMS to same IP"
+msgstr "Интервал между отсылками на тот же IP адрес (минут)"
+
+#: includes/templates/settings/setting.php:75
+msgid "Locked text message"
+msgstr "Сообщение о блокировке"
+
+#: includes/templates/settings/setting.php:78
+msgid "Message for locking status"
+msgstr "Выдается  если обнаружено условие блокировки для защиты от спама"
+
+#: includes/templates/settings/setting.php:82
+msgid "OK text message"
+msgstr "Сообщение  об успешной отправке"
+
+#: includes/templates/settings/setting.php:85
+msgid "Message for success sending"
+msgstr "Тескт сообщения, который выдается при  успешной отправке СМС"
+
+#: includes/templates/settings/setting.php:94
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/templates/settings/tabs.php:2
+msgid "General"
+msgstr "Основные настройки"
+
+#: includes/templates/wp-c2sms-contact-form.php:32
+msgid "Loading..."
+msgstr "Отправка..."
+
+#: includes/templates/wp-c2sms-contact-form.php:37
+#: includes/templates/wp-c2sms-contact-form.php:71
+msgid "Send Contacts"
+msgstr "Выслать контакты"
+
+#: includes/templates/wp-c2sms-contact-form.php:54
+msgid "Phone number incomplete..."
+msgstr "Телефон введен не полностью..."
+
+#: includes/templates/wp-c2sms-contact-form.php:67
+msgid "Your mobile"
+msgstr "Ваш мобильный телефон"
+
+#: includes/templates/wp-c2sms-widget.php:2
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/templates/wp-c2sms-widget.php:7
+msgid "Description"
+msgstr "Описание"
+
+#: includes/templates/wp-c2sms-widget.php:9
+msgid "HTML code is valid."
+msgstr "HTML код верный."
+
+#: includes/wp-c2sms-ip.php:45
+msgid "IP"
+msgstr "IP адрес"
+
+#: includes/wp-c2sms-ip.php:46 includes/wp-c2sms-outbox.php:53
+#: includes/wp-c2sms-phone.php:54
+msgid "Site domain"
+msgstr "Сайт"
+
+#: includes/wp-c2sms-outbox.php:27
+#, php-format
+msgid "%s <span class=\"c2cms-time\">Time: %s</span>"
+msgstr "%s <span class=\"c2cms-time\">Время %s</span>"
+
+#: includes/wp-c2sms-outbox.php:49
+msgid "Date"
+msgstr "Дата"
+
+#: includes/wp-c2sms-outbox.php:50
+msgid "Message"
+msgstr "Сообщение"
+
+#: includes/wp-c2sms-outbox.php:51 includes/wp-c2sms-phone.php:53
+msgid "Recipient phone"
+msgstr "Телефон получателя"
+
+#: includes/wp-c2sms-outbox.php:52
+msgid "SMS Status"
+msgstr "Результат отправки СМС "
+
+#: widget.php:13
+msgid "Contact to SMS Form"
+msgstr "Отсылка контактов по СМС"
+
+#: widget.php:14
+msgid "Contact to SMS Widget"
+msgstr "Виджет для отсылки контактов по СМС"
+
+#: widget.php:44
+msgid "Site contacts by SMS"
+msgstr "Контакты по СМС"
+
+#: wp-c2sms.php:75
+msgid "WP C2SMS"
+msgstr "Wordpress Контакты по СМС"
+
+#: wp-c2sms.php:76
+msgid "A wordpress plugin to send site contacts by sms."
+msgstr "Плугин для отправки контактов сайта по СМС"
+
+#: wp-c2sms.php:211
+msgid "Wordpress C2SMS"
+msgstr "Контакты по СМС"
+
+#: wp-c2sms.php:212
+msgid "Outbox"
+msgstr "Исходящие"
+
+#: wp-c2sms.php:214
+msgid "Phone Blacklist"
+msgstr "Черный список телефонов"
+
+#~ msgid "Sender Name"
+#~ msgstr "Имя (название) отправителя"
+
+#~ msgid "Enter Sender Name."
+#~ msgstr "Введите имя отправителя"
+
+#~ msgid "Sender"
+#~ msgstr "От кого сообщение"
+
+#~ msgid "Setting"
+#~ msgstr "Настройки"
+
+#~ msgid "Sending error: "
+#~ msgstr "Ошибка отсылки:"
+
+#~ msgid "SMS status: "
+#~ msgstr "Сотояние СМС:"
+
+#~ msgid "Please enter a message"
+#~ msgstr "Пожалуйста, введите сообщение"
+
+#~ msgid "Enter your information for SMS Subscribe"
+#~ msgstr "Введите  информацию для подписки по СМС"
+
+#~ msgid "Subscribe"
+#~ msgstr "Отправить"
+
+#~ msgid "Search"
+#~ msgstr "Поиск"
+
+#~ msgid "Sender name"
+#~ msgstr "Имя отправителя"
+
+#~ msgid "Your name"
+#~ msgstr "Ваше имя"
+
+#~ msgid "Recipient"
+#~ msgstr "Получатель"
+
+#~ msgid "Edit"
+#~ msgstr "Изментиь"
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Mobile"
+#~ msgstr "Мобильный телефон"
+
+#~ msgid "Group"
+#~ msgstr "Группа"
+
+#~ msgid "Status"
+#~ msgstr "Состояние"
+
+#~ msgid "Activate code"
+#~ msgstr "Активировать код"
+
+#~ msgid "Items removed."
+#~ msgstr "Строки удалены."
+
+#~ msgid "Item removed."
+#~ msgstr "Строка удалена."
+
+#~ msgid "Subscribe to our mailing list for get any news of the WP SMS plugin"
+#~ msgstr "Подписаться на ..."
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgid "Add Subscriber"
+#~ msgstr "Добавить подписчика"
+
+#~ msgid "Subscriber Info:"
+#~ msgstr "Информация о подписчике:"
+
+#~ msgid "Edit Subscriber"
+#~ msgstr "Изменить данные подписчика"
+
+#~ msgid "Deactive"
+#~ msgstr "Деактивировать"
+
+#~ msgid "Active"
+#~ msgstr "Активно"
+
+#~ msgid "Subscribers"
+#~ msgstr "Подписчики"
+
+#~ msgid "Add Subscribe"
+#~ msgstr "Добавить подписчика"
+
+#~ msgid "Your activation code"
+#~ msgstr "Ваш код активации"
+
+#~ msgid "Contacts sent to your mobile."
+#~ msgstr "Контакты отправлены на ваш телефон"
+
+#~ msgid "Send this post to subscribers?"
+#~ msgstr "Послать всем подписчикам?"
+
+#~ msgid "Please select"
+#~ msgstr "Пожалуйста выберите"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Select the group"
+#~ msgstr "Выбор группы"
+
+#~ msgid "All (%s subscribers active)"
+#~ msgstr "Все (%s Подписчиков)"
+
+#~ msgid "Text template"
+#~ msgstr "Шаблон текста"
+
+#~ msgid "Input data:"
+#~ msgstr "Данные:"
+
+#~ msgid "Title post"
+#~ msgstr "Заголовок сообщения"
+
+#~ msgid "URL post"
+#~ msgstr "URL сообщения"
+
+#~ msgid "Date post"
+#~ msgstr "Дата сообщения"
+
+#~ msgid "Resend"
+#~ msgstr "Послать еще раз"
+
+#~ msgid "SMS Sended."
+#~ msgstr "СМС успешно отправлено"
+
+#~ msgid "Your credit"
+#~ msgstr "Ваш баланс"
+
+#~ msgid "SMS was sent with success"
+#~ msgstr "СМС успешно отправлено"
+
+#~ msgid "Verified subscribe with the activation code"
+#~ msgstr "Проверять подписку кодом активации"
+
+#~ msgid "Send Welcome-SMS"
+#~ msgstr "Отправить приветственное СМС"
+
+#~ msgid "Enter the contents of the sms message."
+#~ msgstr "Введите  информацию для отправки по СМС"
+
+#~ msgid "Subscribe name"
+#~ msgstr "Имя"
+
+#~ msgid "Subscribe mobile"
+#~ msgstr "Мобильный телефон"
+
+#~ msgid "<b>%s</b> Users have mobile number."
+#~ msgstr "<b>%s</b> Номер телефона пользователя."
+
+#~ msgid "Example: <code>%s</code>"
+#~ msgstr "Примерde>%s</code>"

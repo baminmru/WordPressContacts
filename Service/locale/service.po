@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smsapi\n"
+"POT-Creation-Date: 2016-10-26 12:26+0300\n"
+"PO-Revision-Date: 2016-10-26 12:26+0300\n"
+"Last-Translator: Michael Baranov <bami@nm.ru>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: service.php\n"
+"X-Poedit-SearchPath-1: SMSService.php\n"
+
+#: SMSService.php:20
+msgid "Unknown action:"
+msgstr "Неизвестная операция:"
+
+#: SMSService.php:28
+msgid "Connect Error"
+msgstr "Ошибка подключения к БД"
+
+#: SMSService.php:118
+msgid "Error: SendTo not set!"
+msgstr "Ошибка: Получатель не определен"
+
+#: SMSService.php:121
+msgid "Error: SmsText not set!"
+msgstr "Ошибка: SТекст СМС не установлен!"
+
+#: SMSService.php:124 SMSService.php:299 SMSService.php:313 SMSService.php:342
+#: SMSService.php:353 SMSService.php:369
+msgid "Error: Invalid API KEY!"
+msgstr "Ошибка: недопустимый ключ СМС API!"
+
+#: SMSService.php:143
+msgid "Error: IP in blacklist!"
+msgstr "Ошибка: IP адрес в черном списке!"
+
+#: SMSService.php:158
+msgid "Error: Phone in blacklist!"
+msgstr "Ошибка: Телефон в черном списке!"
+
+#: SMSService.php:172
+msgid "Error: IP+Port Spam protection! Interval "
+msgstr "Ошибка: Защита от спама в рамках сессии! Интервал повторной отсылки "
+
+#: SMSService.php:172 SMSService.php:186 SMSService.php:200
+msgid " min."
+msgstr "мин."
+
+#: SMSService.php:186
+msgid "Error: IP Spam protection! Interval "
+msgstr "Ошибка: Защита от спама по IP адресу! Интервал повторной отсылки "
+
+#: SMSService.php:200
+msgid "Error: Phone Spam protection! Interval "
+msgstr "Ошибка: Защита от спама по номеру телефона! Интервал повторной отсылки "
+
+#: SMSService.php:210 SMSService.php:270
+msgid "Error: SMS gate error !"
+msgstr "Ошибка: Системы отсылки сообщений."
+
+#: SMSService.php:233
+msgid "Error: while store SendSms row: "
+msgstr "Ошибка: при сохранении записи об смс:"
+
+#: SMSService.php:246 SMSService.php:248
+msgid "Error: SmsID not set!"
+msgstr "Ошибка: Идентификатор СМС не задан!"
+
+#: SMSService.php:264
+msgid "Sms record not found!"
+msgstr "Не найдена запись об СМС с указанным идентификатором"
+
+#: SMSService.php:290
+msgid "Error: while get Sms status row: "
+msgstr "Ошибка при получении статуса СМС"
+
+#: SMSService.php:292
+msgid "Error: Wrong SmsID format"
+msgstr "Ошибка: Неверный формат идентификатора СМС!"
+
+#: service.php:26
+msgid "Unknown action!"
+msgstr "Неизвестная операция!"

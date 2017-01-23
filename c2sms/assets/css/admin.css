@@ -1,0 +1,43 @@
+.c2cms-time {
+    clear: both;
+    color: #a4a2a2;
+    display: block;
+    font-size: 10px;
+}
+.c2cms-color-green {
+    color: #27bb00;
+}
+.c2cms-color-red {
+    color: #f10000;
+}
+.c2cms-button-group .dashicons {
+    vertical-align: text-top;
+}
+#c2cms-select-subscriber-group{
+	display: none;
+}
+#c2cms-custom-text{
+	display: none;
+}
+#c2cms-custom-text textarea {
+    font-size: 12px;
+    width: 100%;
+    height: 114px;
+}
+#c2cms-custom-text p.description.data,  #c2cms-custom-text code {
+    font-size: 11px !important;
+}
+.c2cms-plugin-meta-link span {
+    font-size: 14px;
+    vertical-align: sub;
+}
+.c2cms-has-credit {
+    color: #3b9d00;
+}
+.c2cms-no-credit{
+	color: #c20000;
+}
+.c2cms-premium-tab {
+    color: #F1F1F1;
+    background: #21A8D2;
+}

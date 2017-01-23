@@ -1,0 +1,38 @@
+CREATE TABLE `clientkey` (
+  `clientkeyid` varchar(36) NOT NULL,
+  `domain` varchar(255) NOT NULL,
+  `keyvalue` varchar(255) NOT NULL,
+  `keycreattime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `keyexparetime` datetime DEFAULT NULL,
+  `keypaused` int(11) DEFAULT '0',
+  PRIMARY KEY (`clientkeyid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `sms` (
+  `smsid` varchar(36) NOT NULL,
+  `smsto` varchar(45) NOT NULL,
+  `smstext` varchar(200) NOT NULL,
+  `sender` varchar(64) DEFAULT NULL,
+  `createtime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `smsstatus` varchar(20) DEFAULT NULL,
+  `clientkeyid` varchar(36) NOT NULL,
+  `esmeid` varchar(40) DEFAULT NULL,
+  `clientip` varchar(45) DEFAULT NULL,
+  `clientport` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`smsid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `lockedip` (
+  `ip` varchar(40) NOT NULL,
+  PRIMARY KEY (`ip`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `lockedphone` (
+  `phone` varchar(40) NOT NULL,
+  PRIMARY KEY (`phone`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
